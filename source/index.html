@@ -3,20 +3,85 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
     <header>
-      <ul>
-        <li>Главная</li>
-        <li>Фото и видео</li>
-        <li>Форма отзыва</li>
-        <li>Html academy</li>
+      <ul class="menu__list">
+        <li class="menu__item">Главная</li>
+        <li class="menu__item">Фото и видео</li>
+        <li class="menu__item">Форма отзыва</li>
+        <li class="menu__item">Html academy</li>
       </ul>
     </header>
     <main>
-      <h1>Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
-      <p>Рассмотри 5 причин, по которым Седона круче, чем Гранд каньон</p>
-      ы
+      <div class="description">
+        <h1 class="description__title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
+        <p class="description__text">Рассмотри 5 причин, по которым Седона круче, чем Гранд каньон</p>
+      </div>
+      <section class="fiture-1 fiture">
+        <h2 class="fiture__title">Настоящий городок</h2>
+        <p class="fitire__number">- №1 -</p>
+        <p class="fiture__text">Седона не аттракцион для туристов, там течет своя жизнь</p>
+      </section>
+      <section class="guides">
+        <h2 class="guides__title visually-hidden">Рекомендации для Вас</h2>
+        <ul class="guides__list">
+          <li class="guides__item">
+            <h3 class="guides__head">Жилье</h3>
+            <p class="guides__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          </li>
+          <li class="guides__item">
+            <h3 class="guides__head">Сувениры</h3>
+            <p class="guides__text">Не только китайского, но и местного производства</p>
+          </li>
+          <li class="guides__item">
+            <h3 class="guides__head">Еда</h3>
+            <p class="guides__text">Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
+          </li>
+        </ul>
+      </section>
+      <section class="fiture-2 fiture">
+        <h2 class="fiture__title">Там есть мост дьявола</h2>
+        <p class="fitire__number">- №2 -</p>
+        <p class="fiture__text">Да, по нему можно пройти! Если Вы осмелитесь, конечно</p>
+      </section>
+      <section class="fiture-3 fiture">
+        <h2 class="fiture__title">Небольшая площадь</h2>
+        <p class="fitire__number">- №3 -</p>
+        <p class="fiture__text">Все интересные места находятся очень близко</p>
+      </section>
+      <section class="fiture-4 fiture">
+        <h2 class="fiture__title">Красивая дорога</h2>
+        <p class="fitire__number">- №4 -</p>
+        <p class="fiture__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+      </section>
+      <section class="fiture-5 fiture">
+        <h2 class="fiture__title">Мало туристов</h2>
+        <p class="fitire__number">- №5 -</p>
+        <p class="fiture__text">Большинство едет в Гранд каньон и толпится там</p>
+      </section>
+      <section class="feedback">
+        <h2 class="feedback__title">Заинтересовались</h2>
+        <p class="feedback__text">Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
+        <button class="button feedback__button">Найти гостиницу</button>
+      </section>
+      <div class="map">
+        <p class="map__hashtag">#visitsedona</p>
+      </div>
     </main>
+    <footer>
+      <section class="socials">
+        <ul class="socials__list">
+          <li class="socials__item"></li>
+          <li class="socials__item"></li>
+          <li class="socials__item"></li>
+        </ul>
+      </section>
+      <section class="copyright">
+        <h2 class="copyright__text">Разработано</h2>
+        <a class="copyright__logo" href=""></a>
+      </section>
+    </footer>
   </body>
 </html>
